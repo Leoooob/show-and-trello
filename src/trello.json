@@ -1,0 +1,23 @@
+{
+  "scenarios": [{
+    "name": "Magic 8 Ball",
+    "description": "Something capable of ingesting large amounts of data and inferring patterns that no human (or S/4) could easily see.  Spot reasons why we don’t hit customer deliver dates.  In Discrete Manufacturing as opposed to Consumer Products, i.e. with Complex BoMs with Engineering Changes being applied.",
+    "owner": "Martin Driscoll",
+    "bData": false
+  }, {
+    "name": "Team Planner",
+    "description": "How to optimise the use of our field operatives? using data such as operative's last job, base location and emergent job location to effectively rearrange workloads to be as efficient as we can.",
+    "owner": "Martin Watmough",
+    "bData": false
+  }, {
+    "name": "Quality Inspection",
+    "description": "Quality inspection with AI+cameras+S4HANA, we have this question for a customer called Orion in Finland.",
+    "owner": "Alex Bulat",
+    "bData": false
+  }, {
+    "name": "Smart Supermarket",
+    "description": "Optimizing price in stores real-time for customers. 2 components, currently this is still not on the fly and shelf labels are expensive, can we make it cheaper?",
+    "owner": "Alex Bulat",
+    "bData": false
+  }]
+}
