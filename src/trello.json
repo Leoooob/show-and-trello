@@ -15,7 +15,7 @@
   }, {
     "name": "Smart Supermarket",
     "description": ["Optimizing price in stores real-time for customers. 2 components, currently this is still not on the fly and shelf labels are expensive, can we make it cheaper?"],
-    "tags": ["Alex Bulat", "Data?"]
+    "tags": ["Alex Bulat", "Data?", "Price to beat?"]
   }, {
     "name": "CI/CD in MPSA architecture",
     "description": ["How do you use AWS tooling to manage the propagation of change across all three pillars (lean core, micro and macro services) in a SAP + many other application environment?",
