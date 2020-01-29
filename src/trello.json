@@ -1,23 +1,60 @@
 {
   "scenarios": [{
     "name": "Magic 8 Ball",
-    "description": "Something capable of ingesting large amounts of data and inferring patterns that no human (or S/4) could easily see.  Spot reasons why we don’t hit customer deliver dates.  In Discrete Manufacturing as opposed to Consumer Products, i.e. with Complex BoMs with Engineering Changes being applied.",
-    "owner": "Martin Driscoll",
-    "bData": false
+    "description": ["Something capable of ingesting large amounts of data and inferring patterns that no human (or S/4) could easily see.  Spot reasons why we don’t hit customer deliver dates.  In Discrete Manufacturing as opposed to Consumer Products, i.e. with Complex BoMs with Engineering Changes being applied."
+    ],
+    "tags": ["Martin Driscoll", "Data?"]
   }, {
     "name": "Team Planner",
-    "description": "How to optimise the use of our field operatives? using data such as operative's last job, base location and emergent job location to effectively rearrange workloads to be as efficient as we can.",
-    "owner": "Martin Watmough",
-    "bData": false
+    "description": ["How to optimise the use of our field operatives? using data such as operative's last job, base location and emergent job location to effectively rearrange workloads to be as efficient as we can."],
+    "tags": ["Martin Watmough", "Data?"]
   }, {
     "name": "Quality Inspection",
-    "description": "Quality inspection with AI+cameras+S4HANA, we have this question for a customer called Orion in Finland.",
-    "owner": "Alex Bulat",
-    "bData": false
+    "description": ["Quality inspection with AI+cameras+S4HANA, we have this question for a customer called Orion in Finland."],
+    "tags": ["Alex Bulat", "Data?"]
   }, {
     "name": "Smart Supermarket",
-    "description": "Optimizing price in stores real-time for customers. 2 components, currently this is still not on the fly and shelf labels are expensive, can we make it cheaper?",
-    "owner": "Alex Bulat",
-    "bData": false
-  }]
+    "description": ["Optimizing price in stores real-time for customers. 2 components, currently this is still not on the fly and shelf labels are expensive, can we make it cheaper?"],
+    "tags": ["Alex Bulat", "Data?"]
+  }, {
+    "name": "CI/CD in MPSA architecture",
+    "description": ["How do you use AWS tooling to manage the propagation of change across all three pillars (lean core, micro and macro services) in a SAP + many other application environment?",
+      "in MPSA we have many moving parts (the application is by definition distributed) and some of those parts are not going to be controlled via the good ole Transport Management System."],
+    "tags": ["Martin Driscoll", "Needs example system"]
+  }, {
+    "name": "Feed the World",
+    "description": ["Precision farming and the value chain. We have a lot of our customer in the agri value chain. And we we have are farm project, maybe we could add something to this to help farmers, farm more sustainably and efficiently. And that our agri business can help with."],
+    "tags": ["Alex Bulat", "Client?", "User journey?"]
+  }, {
+    "name": "Spend Comparison",
+    "description": ["One of the best projects I ever did was for a retail bank and we took partially anonymised debit and credit card spending data, joined it all together in native HANA and built a really cool UI using D3 to enable customers to compare their spending with other people’s. So able to select based on age, location etc and then see how / where other people tended to spend their money. The real hook was personalisation."],
+    "tags": ["Mike Curl", "Data?", "Pure Visualisation using available data?", "Combine with Magic 8 ball?"]
+  }, {
+    "name": "Auto-Procurement",
+    "description": ["Automating the process to determine the best means of procurement.",
+        ["Many procurement options (various suppliers, 3D printing, various factories globally) learning from history and master data.",
+        "Stock availability - globally (A&D ebay type solution are out there)",
+        "Differing cost models.  Machine learning selects cheapest by comparing procurement costs, disruption, cost of not supplying (brand, aircraft cannot fly etc).Including cost of transport to satisfy demand."],
+      "This is common in MRO domain – it is a competitive market and speed is often key.  Automating  information collection across many varying sources and decision making could be"],
+    "tags": ["Martin Watmough", "Data?"]
+  }, {
+    "name": "Line of Sight",
+    "description": ["Real MRP Line of sight - If I have a 20 level Bill of Material and 2000 exception messages through the BOM/MRP explosion, which ones are really worth my attention, e.g. for the top level item, what components / capacity constraints are really going to stop me from delivering the production on time (not just that the confirmed PO deliver date is after the requested PO delivery date, as this delay may in fact have no impact on  my ability to deliver) Want this for MTS, MTO and ETO scenarios.",
+      "Real MTO/ETO MRP line of sight - where I have hard pegged requirements through the BOM and have a component available on customer object A but not on B and B is needed before A, is there time to move A to B and resupply A and meet both delivery dates."],
+    "tags": ["Renny Morgan", "Data?"]
+  }, {
+    "name": "Supply Chain Expedition",
+    "description": ["if something is late from a supplier and it is on the critical path (point 1) automatically send/call (BOT) the supplier and expedite and record, alert internal stakeholder."],
+    "tags": ["Renny Morgan", "Data?"]
+  }, {
+    "name": "Factory of the Future",
+    "description": ["Lights out procurement (ETO) - Cross system purchase requisition checking, do I have a PIR or Contract in place, is all the meta data present and correct (drawings and specification is system A, valid material data, prices, licenses, contracts, supplier performance, in systems B, C, D, etc) if all good automatically go from Purchase Req to PO, followed by automatic approval checks, Delivery date respects  supplier lead time, no budget constraints, etc. Send PO and all required supporting information to supplier.", 
+      "Realtime production performance and analytics - If a line is running slower that the master data expects, realtime product delay analytics, is slow running going to have a material impact on the delivery date/time for the final product. Analyse what is causing the slow running, generate maintenance request and dispatch operative/robot to go fix"],
+    "tags": ["Renny Morgan", "Data?"]
+  }, {
+    "name": "Cutover Hub",
+    "description": ["Cutover management hub, a place to monitor the progress of the cutover. Allow blueprinting of cutover plans, add/remove steps, assign steps to people/teams, track completion of tasks as well as planned vs actual time. Apply ML to learn where issues occur, how far they deviate from the plan etc"],
+    "tags": ["Rhys Lewis", "Blueprints?", "Cusomised examples?"]
+  }],
+  "other": ["Production Order scheduled, released and actual completion date data – by work centre, part number, day of the week, etc.", "Purchase Order release and receipt by supplier, material group, material", "Quality data – in process quality inspection data", "Engineering Change Management data", "Adherence to customer delivery date", "Adherence to Supply Plan in the last Sales and Operations Plan"]
 }
