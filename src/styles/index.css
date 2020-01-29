@@ -11,3 +11,7 @@
   grid-gap: 2rem;
   align-items: start;
 }
+
+.card-container article {
+  margin: 0 auto;
+}
