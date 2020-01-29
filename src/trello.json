@@ -3,7 +3,7 @@
     "name": "Magic 8 Ball",
     "description": ["Something capable of ingesting large amounts of data and inferring patterns that no human (or S/4) could easily see.  Spot reasons why we don’t hit customer deliver dates.  In Discrete Manufacturing as opposed to Consumer Products, i.e. with Complex BoMs with Engineering Changes being applied."
     ],
-    "tags": ["Martin Driscoll", "Data?"]
+    "tags": ["Martin Driscoll", "Data?", "Combine with Spend Comparison?"]
   }, {
     "name": "Team Planner",
     "description": ["How to optimise the use of our field operatives? using data such as operative's last job, base location and emergent job location to effectively rearrange workloads to be as efficient as we can."],
@@ -55,6 +55,9 @@
     "name": "Cutover Hub",
     "description": ["Cutover management hub, a place to monitor the progress of the cutover. Allow blueprinting of cutover plans, add/remove steps, assign steps to people/teams, track completion of tasks as well as planned vs actual time. Apply ML to learn where issues occur, how far they deviate from the plan etc"],
     "tags": ["Rhys Lewis", "Blueprints?", "Cusomised examples?"]
-  }],
-  "other": ["Production Order scheduled, released and actual completion date data – by work centre, part number, day of the week, etc.", "Purchase Order release and receipt by supplier, material group, material", "Quality data – in process quality inspection data", "Engineering Change Management data", "Adherence to customer delivery date", "Adherence to Supply Plan in the last Sales and Operations Plan"]
+  }, {
+    "name": "C02 Calculator",
+    "description": ["Taking data from our employees can we see the impact of our travel to/from client site based on modes of transport and other junk like that? Then suggest improvements to employees travel to improve their C02?"],
+    "tags": ["Nathan Hand", "Data?"]
+  }]
 }
